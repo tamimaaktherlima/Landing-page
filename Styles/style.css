@@ -7,6 +7,12 @@
 }
 
 /* Shared Styles */
+.secondary-bg{
+    background-color:rgba(13, 19, 33, 0.02);
+    /* opacity: 2%; */
+    margin: 74px 150px;
+    border-radius: 16px;
+}
 .btn-primary{
     width: 240px;
     height: 55px;
@@ -17,6 +23,9 @@
     border-radius: 8px;
     font-weight: 600px;
     font-size: 16px;
+}
+.text-center{
+    text-align: center;
 }
 /* Nav Styles */
 nav{
@@ -63,9 +72,11 @@ nav button{
     margin: 30px 150px 24px 150px;
 }
 .banner-description{
+    width: 850px;
     font-size: 16px;
     color: #0D1321;
     margin: 24px 290px;
+    opacity: 70%;
 }
 .contact-btn{
     width: 200px;
@@ -78,4 +89,36 @@ nav button{
     font-weight: 600px;
     font-size: 16px;
     margin-top: 30px;
+}
+
+.development{
+    display: flex;
+    gap: 100px;
+    /* padding: 48px; */
+}
+.web-dev{
+    padding: 80px 97px;
+}
+.web-dev-container{
+    gap: 32px;
+    margin: 0px 95px;
+    border: 1px ;
+}
+.web-title{
+    font-weight: 800px;
+    font-size: 32px;
+    color: #0D1321;
+}
+.web-description{
+    font-size: 16px;
+    color: #0D1321;
+    /* margin: 24px 290px; */
+    opacity: 70%;
+}
+.content-title{
+    font-weight: bold;
+    font-size: 24px;
+    color: #0D1321;
+    opacity: 70%;
+    line-height: 36px;
 }
