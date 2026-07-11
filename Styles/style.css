@@ -8,8 +8,15 @@
 
 /* Shared Styles */
 .btn-primary{
+    width: 240px;
+    height: 55px;
     padding: 17px 24px;
     background-color: white;
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    font-weight: 600px;
+    font-size: 16px;
 }
 /* Nav Styles */
 nav{
@@ -17,9 +24,58 @@ nav{
     justify-content: space-between;
     margin: 50px 150px;
     background-color: white;
+    margin-bottom: 36px;
+}
+nav button{
+    width: 200px;
+    height: 55px;
+    padding: 17px 24px;
+    background-color: white;
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    font-weight: 600px;
+    font-size: 16px;
 }
 .title{
     font-weight: bolder;
-    font-size: 28px;
+    font-size: 30px;
     color: #0D1321;
+}
+
+/* Banner Styles */
+.banner-bg{
+    background-image: url("../assets/Hero-bg.png");
+    width: 100%;
+    height: 650px;
+    /* margin-top: 36px; */
+}
+.banner{
+    text-align: center;
+}
+.banner-image{
+    margin-top: 26px;
+}
+.banner-title{
+    font-weight: 800px;
+    font-size: 48px;
+    color: #0D1321;
+    margin: 30px 150px 24px 150px;
+}
+.banner-description{
+    font-size: 16px;
+    color: #0D1321;
+    margin: 24px 290px;
+}
+.contact-btn{
+    width: 200px;
+    height: 55px;
+    padding: 17px 24px;
+    background-color: #0D1321;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600px;
+    font-size: 16px;
+    margin-top: 30px;
 }
