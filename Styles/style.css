@@ -175,3 +175,16 @@ nav button{
     border-radius: 16px;
     
 }
+
+/* current target section */
+.current-target{
+    margin: 74px 148px;
+}
+.current-target-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.target{
+    padding: 40px;
+}
