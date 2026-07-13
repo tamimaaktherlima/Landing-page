@@ -188,3 +188,70 @@ nav button{
 .target{
     padding: 40px;
 }
+.current-target-container h5{
+    text-decoration: underline;
+}
+
+/* Next target container */
+.next-targets{
+    margin: 111px 148px;
+}
+.next-target-container{
+    gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+}
+.next-target{
+    display: flex;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 24px;
+    gap: 24px;
+    
+}
+.next-target-container h5{
+    text-decoration: underline;
+}
+.next-target-img{
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+/* Support section style */
+.support{
+    background-image: url("../assets/handshake.jpg");
+    margin: 49px 150px 80px 150px;
+    /* width: 100%; */
+    /* height: 313px; */
+    border-radius: 16px;
+    background-repeat: none;
+    
+}
+.support-container{
+    padding: 64px 48px;
+}
+.support-container input[type="text"]{
+    width: 548px;
+    padding: 19px 20px;
+    border-radius: 8px;
+    border-style: none;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+}
+.support-container input[type="submit"]{
+    width: 120px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border-style: none;
+    color: rgba(13, 19, 33, 1);
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+/* Footer Styles */
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
